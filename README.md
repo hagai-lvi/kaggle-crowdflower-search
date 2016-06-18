@@ -17,10 +17,7 @@ library(readr)
 library(tm)
 ```
 
-```
 ## Loading required package: NLP
-```
-
 ```r
 train <- read_csv("data/train.csv")
 test  <- read_csv("data/test.csv")
