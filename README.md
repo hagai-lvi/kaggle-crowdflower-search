@@ -246,10 +246,9 @@ write.csv(Newsubmission,"model2.csv",row.names=F)
 ```
 That is our first model, it provided results of about 0.35
 
-
 ---
 
-## 2nd model
+## Second model
 Our other model is super complicated (computation wise), and takes about 3 days to run on an ec2 instance with 8 cores and 60 GB ram.
 
 We ran it as an `.R` file, and not as `.Rmd` file, and we didn't want to run it again (costs a lot of money), so the code is attached, but we
@@ -429,4 +428,5 @@ This model got us results of about `0.558`.
 
 **Its results are in `final_submission.csv`, and those are the results that we used in kaggle.**
 
-**See the screenshots from kaggle under screenshots directory**
+![second model results](screenshots/res1.jpg)
+![second model results](screenshots/res2.jpg)
